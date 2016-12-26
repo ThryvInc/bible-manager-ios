@@ -1,0 +1,22 @@
+PODS:
+  - BibleManager (0.1.0)
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+
+DEPENDENCIES:
+  - BibleManager (from `../`)
+  - Nimble (~> 5.1.1)
+  - Quick (~> 1.0.0)
+
+EXTERNAL SOURCES:
+  BibleManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BibleManager: 7f55ff83582ec616d1560bf0f3c1896d3b32ef08
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+
+PODFILE CHECKSUM: 4f24e28b15cc27975d3bf21f3190444457de6601
+
+COCOAPODS: 1.1.1
