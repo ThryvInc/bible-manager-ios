@@ -17,12 +17,12 @@ BibleManager is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "BibleManager"
+pod "BibleManager", git: "https://github.com/ThryvInc/bible-manager-ios.git"
 ```
 
 ## Author
 
-Elliot, elliot.schrock@gmail.com
+Elliot Schrock
 
 ## License
 
