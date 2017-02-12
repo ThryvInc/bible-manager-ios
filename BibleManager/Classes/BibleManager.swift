@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol BibleManager {
+public protocol BibleManager {
     static var bibleManager: BibleManager { get set }
     
     func books(completion: ((Array<Book>)))
