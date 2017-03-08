@@ -8,35 +8,20 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BibleManager'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of BibleManager.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.0.1'
+  s.summary          = 'An abstract model layer for bible apps'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Most bible apps will have pretty much the same UI: you'll want to fetch a chapter, and display the verses. This pod allows you to abstract how you fetch the bible data (from an api? from a database? from CoreData? your UI probably doesn't care), so that you can build a data source agnostic front end.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/BibleManager'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/ThryvInc/bible-manager-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Elliot' => 'thryvinc@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/BibleManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Elliot' => '' }
+  s.source           = { :git => 'https://github.com/ThryvInc/bible-manager-ios.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/schrockblock'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'BibleManager/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'BibleManager' => ['BibleManager/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
